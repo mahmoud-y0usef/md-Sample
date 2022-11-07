@@ -1,6 +1,5 @@
-<img src="https://github.com/RickStrahl/MarkdownMonster/raw/master/Art/MarkdownMonster_Icon_128.png" align="right" style="height: 64px"/>
 
-# Welcome to Markdown Monster
+# Welcome to Markdown
 Here are a few tips to get you started:
 
 * To create a **New Document** press **Ctrl-N** or **click @icon-plus-circle** on the toolbar
