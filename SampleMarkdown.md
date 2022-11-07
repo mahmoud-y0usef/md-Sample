@@ -18,12 +18,6 @@ Here are a few tips to get you started:
 
 * For **dark editor themes** look at `vscodedark`, `twilight`, `monokai`, `terminal`
 
-### Problems? Please let us know
-
-If you run into any problems or issues, **please** let us know so we can address and fix them right away. You can report issues on GitHub:
-
-* [Markdown Monster Bug Reports and Feature Requests](https://github.com/RickStrahl/MarkdownMonster/issues)
-
 # Markdown Features
 This topic is meant to give you a very basic overview of how Markdown works, showing some of the most frequently used operations.
 
