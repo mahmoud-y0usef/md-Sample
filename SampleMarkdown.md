@@ -57,7 +57,7 @@
 # # روابط
 يمكنك الربط بسهولة باستخدام بناء «[نص] (رابط)»:
 
-[موقع Markdown Monster على الويب] (http://MarkdownMonster.west-wind.com/)
+[web monster in internet] (http://MarkdownMonster.west-wind.com/)
 
 إذا كنت بحاجة إلى علامات صور إضافية مثل الأهداف أو سمات العنوان، فيمكنك أيضًا تضمين HTML مباشرة باستخدام ترميز HTML الخام:
 
