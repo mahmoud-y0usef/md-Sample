@@ -1,64 +1,65 @@
 
-# Welcome to Markdown
-Here are a few tips to get you started:
+# مرحبًا بكم في Markdown
+فيما يلي بعض النصائح لبدء العمل:
+* لإنشاء * * وثيقة جديدة * * اضغط * * Ctrl-N * * أو * * انقر على @ icon-plus-circle * * على شريط الأدوات
 
-* To create a **New Document** press **Ctrl-N** or **click @icon-plus-circle** on the toolbar
+لتبديل معاينة HTML * * اضغط * * F12 * * أو انقر فوق @ icon-globe في شريط Window
 
-* To toggle the **HTML Preview** press **F12** or click @icon-globe in the Window bar
+* لتبديل * * متصفح المجلد شريط جانبي * * اضغط * * Ctrl-Shift-B * * أو انقر * * @ icon-bars * *
 
-* To toggle the **Folder Browser Sidebar** press **Ctrl-Shift-B** or click **@icon-bars**
+* * * @ icon-bars SideBar * * يحمل أيضًا * * المفضلة * * و * * مخطط وثيقة Markdown * *
 
-* The **@icon-bars SideBar** also holds **Favorites** and **Markdown Document Outline**
-
-* To change **UI Themes**, click on the dropdown lists on the bottom right status bar:
+* لتغيير سمات واجهة المستخدم * *، انقر فوق قوائم الإسقاط في شريط الحالة الأيمن السفلي:
 
 ![Image and Preview Themes on the toolbar](https://markdownmonster.west-wind.com/docs/images/EditorPreviewThemeUi.png) 
   
-* For **light editor themes** look at `visualstudio`, `github` or `xcode`  
+* لموضوعات محرر الضوء * * انظر إلى «visualstudio» أو «github» أو «xcode»
 
-* For **dark editor themes** look at `vscodedark`, `twilight`, `monokai`, `terminal`
+* لموضوعات المحرر المظلم * * انظر إلى "vscodedark" و "twilight' و" monokai "و" terminal "
 
-# Markdown Features
-This topic is meant to give you a very basic overview of how Markdown works, showing some of the most frequently used operations.
+# ميزات Markdown
+يهدف هذا الموضوع إلى إعطائك لمحة عامة أساسية جدًا عن كيفية عمل Markdown، وإظهار بعض العمليات الأكثر استخدامًا.
 
-### Bold and Italic
-This text **is bold**.  
-This text *is italic*.  
-This text ~~is struck out~~.
+# # جريء وإيطالي
+هذا النص * * جريء * *.
+هذا النص * مائل *.
+هذا النص ~~ شطب ~~.
 
-### Header Text
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+### رأس النص
+# نص h1
+## نص h2
+### نص h3
+#### نص h4
+##### نص h5
+###### نص h6
 
 
-### Line Continuation
-By default Markdown **adds paragraphs at double line breaks**. Single line breaks by themselves are simply wrapped together into a single line. If you want to have **soft returns** that break a single line, add **two spaces at the end of the line** <small>(shift-enter)</small> or use a backslash `\`.
 
----
 
-This line has a paragraph break at the end (empty line after).
-
-Theses two lines should display as a single
-line because there's no double space at the end.
-
-The following line has a soft break at the end (two spaces or a `\` at end)  
-This line should be following on the very next line.  
-
-You can also use `shift-enter` to inject the two spaces plus linefeed at the end of a line.  
-To show all white space and returns in a document you can use **View -> Toggle Invisible Characters**.
+# # استمرار الخط
+افتراضيًا، يضيف Markdown * * فقرات عند فواصل السطر المزدوج * *. يتم ببساطة لف فواصل السطر الواحد معًا في سطر واحد. إذا كنت ترغب في الحصول على * * عوائد ناعمة * * تكسر سطرًا واحدًا، أضف * * مسافتين في نهاية السطر * * < صغير > (تحول-إدخال) </صغير > أو استخدم رد فعل عكسي «\».
 
 ---
 
-### Links
-You can easily link using `[text](link)` syntax:
+يحتوي هذا السطر على فاصل فقرة في النهاية (سطر فارغ بعد).
 
-[Markdown Monster Web Site](http://MarkdownMonster.west-wind.com/)
+يجب عرض الخطين كخط واحد
+لأنه لا توجد مساحة مزدوجة في النهاية.
 
-If you need additional image tags like targets or title attributes you can also embed HTML directly using raw HTML markup:
+يحتوي الخط التالي على استراحة ناعمة في النهاية (مسافتان أو '\' في النهاية)
+يجب أن يكون هذا الخط متبعًا في السطر التالي.
+
+يمكنك أيضًا استخدام «shift-enter» لحقن المساحتين بالإضافة إلى linefeed في نهاية السطر.
+لعرض كل المساحة البيضاء والإرجاع في مستند يمكنك استخدام * * عرض - > تبديل الشخصيات غير المرئية * *.
+
+---
+
+# # روابط
+يمكنك الربط بسهولة باستخدام بناء «[نص] (رابط)»:
+
+[موقع Markdown Monster على الويب] (http://MarkdownMonster.west-wind.com/)
+
+إذا كنت بحاجة إلى علامات صور إضافية مثل الأهداف أو سمات العنوان، فيمكنك أيضًا تضمين HTML مباشرة باستخدام ترميز HTML الخام:
 
 ```html
 Go to the 
@@ -75,9 +76,8 @@ Go to the
 </a>
 
 ---
-
-### Images
-Images are similar to links:
+# # صور
+الصور مشابهة للروابط:
 
 ```markdown
 ![Markdown Monster](https://markdownmonster.west-wind.com/Images/MarkdownMonster_Icon_128.png)
@@ -87,37 +87,36 @@ which renders:
 
 ![Markdown Monster](https://markdownmonster.west-wind.com/Images/MarkdownMonster_Icon_128.png)
 
-You can embed images from the Clipboard by pasting (**ctrl-v**), by using the @icon-image Image Dialog, or by dragging and dropping images into the document from the Folder Browser, Windows Explorer or a
+يمكنك تضمين الصور من Clipboard عن طريق اللصق (* * ctrl-v * *)، باستخدام @ icon-image Image Dialog، أو عن طريق سحب وإسقاط الصور في المستند من Folder Browser أو Windows Explorer أو a
 
-### Block Quotes
-Block quotes are callouts that are great for adding notes or warnings into documentation.
+# # اقتباسات الحظر
+الاقتباسات المحظورة هي وسائل شرح رائعة لإضافة ملاحظات أو تحذيرات إلى الوثائق.
 
-Simple block quotes simply use a `>` to start a quote block:
+اقتباسات الكتلة البسيطة تستخدم ببساطة «>» لبدء كتلة الاقتباس:
+
 
 ```markdown
 > **Note:** Block quotes can be used to highlight important ideas.
 ```
 
 This renders to:
+> * * ملاحظة: * * يمكن استخدام اقتباسات الحظر لتسليط الضوء على الأفكار المهمة.
 
-> **Note:** Block quotes can be used to highlight important ideas.
-
-You can make quote blocks look nicer with headers and icons (using FontAwesome here):
+يمكنك جعل كتل الاقتباس تبدو أجمل مع الرؤوس والأيقونات (باستخدام FontAwesome هنا):
 
 ```markdown
-> ### @ icon-info-circle Headers break on their own
-> Note that headers don't need line continuation characters 
-> as they are block elements and automatically break. Only text lines
-> require the double spaces for single line breaks.
+> # # @ icon-info-circle الرؤوس تكسر من تلقاء نفسها
+> لاحظ أن الرؤوس لا تحتاج إلى أحرف استمرار الخط 
+> لأنها عناصر كتلة وكسر تلقائيا. سطور نصية فقط
+> تتطلب المساحات المزدوجة لفواصل الخط الواحد.
 ```
-Note that lines automatically wrap in the quote block, if no newline with `>' is provided. Shown with the breaks here to make it easier to read. The following uses a single line for the second block which renders identically:
+لاحظ أن الخطوط تغلف تلقائيًا في كتلة الاقتباس، إذا لم يتم توفير خط جديد مع «>». يظهر مع فترات الراحة هنا لتسهيل القراءة. يستخدم ما يلي سطرًا واحدًا للكتلة الثانية والذي يعرض بشكل متطابق:
 
-> ### @icon-info-circle Headers break on their own
-> Note that headers don't need line continuation characters as they are block elements and automatically break. Only text lines require the double spaces for single line breaks.
+> # # @ icon-info-circle الرؤوس تكسر من تلقاء نفسها
+> لاحظ أن الرؤوس لا تحتاج إلى أحرف استمرار الخط لأنها عناصر كتلة وتكسر تلقائيًا. تتطلب الخطوط النصية فقط المساحات المزدوجة لفواصل السطر الواحد.
 
-
-### Fontawesome Icons
-Markdown Monster includes custom syntax for FontAwesome icons in its templates. You can embed a `@ icon-` followed by a font-awesome icon name to automatically embed that icon without full HTML syntax.
+# # أيقونات Fontawesome
+يتضمن Markdown Monster بنية مخصصة لأيقونات FontAwesome في قوالبها. يمكنك تضمين «@ icon -» متبوعًا باسم أيقونة رائع للخط لتضمين تلك الأيقونة تلقائيًا بدون تركيبة HTML الكاملة.
 
 ```markdown
 @ icon-gear Configuration
