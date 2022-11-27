@@ -1,65 +1,71 @@
+<img src="https://github.com/RickStrahl/MarkdownMonster/raw/master/Art/MarkdownMonster_Icon_128.png" align="right" style="height: 64px"/>
 
-# مرحبًا بكم في Markdown
-فيما يلي بعض النصائح لبدء العمل:
-* لإنشاء * * وثيقة جديدة * * اضغط * * Ctrl-N * * أو * * انقر على @ icon-plus-circle * * على شريط الأدوات
+# Welcome to Markdown Monster
+Here are a few tips to get you started:
 
-لتبديل معاينة HTML * * اضغط * * F12 * * أو انقر فوق @ icon-globe في شريط Window
+* To create a **New Document** press **Ctrl-N** or **click @icon-plus-circle** on the toolbar
 
-* لتبديل * * متصفح المجلد شريط جانبي * * اضغط * * Ctrl-Shift-B * * أو انقر * * @ icon-bars * *
+* To toggle the **HTML Preview** press **F12** or click @icon-globe in the Window bar
 
-* * * @ icon-bars SideBar * * يحمل أيضًا * * المفضلة * * و * * مخطط وثيقة Markdown * *
+* To toggle the **Folder Browser Sidebar** press **Ctrl-Shift-B** or click **@icon-bars**
 
-* لتغيير سمات واجهة المستخدم * *، انقر فوق قوائم الإسقاط في شريط الحالة الأيمن السفلي:
+* The **@icon-bars SideBar** also holds **Favorites** and **Markdown Document Outline**
+
+* To change **UI Themes**, click on the dropdown lists on the bottom right status bar:
 
 ![Image and Preview Themes on the toolbar](https://markdownmonster.west-wind.com/docs/images/EditorPreviewThemeUi.png) 
   
-* لموضوعات محرر الضوء * * انظر إلى «visualstudio» أو «github» أو «xcode»
+* For **light editor themes** look at `visualstudio`, `github` or `xcode`  
 
-* لموضوعات المحرر المظلم * * انظر إلى "vscodedark" و "twilight' و" monokai "و" terminal "
+* For **dark editor themes** look at `vscodedark`, `twilight`, `monokai`, `terminal`
 
-# ميزات Markdown
-يهدف هذا الموضوع إلى إعطائك لمحة عامة أساسية جدًا عن كيفية عمل Markdown، وإظهار بعض العمليات الأكثر استخدامًا.
+### Problems? Please let us know
 
-# # جريء وإيطالي
-هذا النص * * جريء * *.
-هذا النص * مائل *.
-هذا النص ~~ شطب ~~.
+If you run into any problems or issues, **please** let us know so we can address and fix them right away. You can report issues on GitHub:
 
-### رأس النص
-# نص h1
-## نص h2
-### نص h3
-#### نص h4
-##### نص h5
-###### نص h6
+* [Markdown Monster Bug Reports and Feature Requests](https://github.com/RickStrahl/MarkdownMonster/issues)
+
+# Markdown Features
+This topic is meant to give you a very basic overview of how Markdown works, showing some of the most frequently used operations.
+
+### Bold and Italic
+This text **is bold**.  
+This text *is italic*.  
+This text ~~is struck out~~.
+
+### Header Text
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 
 
-
-
-# # استمرار الخط
-افتراضيًا، يضيف Markdown * * فقرات عند فواصل السطر المزدوج * *. يتم ببساطة لف فواصل السطر الواحد معًا في سطر واحد. إذا كنت ترغب في الحصول على * * عوائد ناعمة * * تكسر سطرًا واحدًا، أضف * * مسافتين في نهاية السطر * * < صغير > (تحول-إدخال) </صغير > أو استخدم رد فعل عكسي «\».
-
----
-
-يحتوي هذا السطر على فاصل فقرة في النهاية (سطر فارغ بعد).
-
-يجب عرض الخطين كخط واحد
-لأنه لا توجد مساحة مزدوجة في النهاية.
-
-يحتوي الخط التالي على استراحة ناعمة في النهاية (مسافتان أو '\' في النهاية)
-يجب أن يكون هذا الخط متبعًا في السطر التالي.
-
-يمكنك أيضًا استخدام «shift-enter» لحقن المساحتين بالإضافة إلى linefeed في نهاية السطر.
-لعرض كل المساحة البيضاء والإرجاع في مستند يمكنك استخدام * * عرض - > تبديل الشخصيات غير المرئية * *.
+### Line Continuation
+By default Markdown **adds paragraphs at double line breaks**. Single line breaks by themselves are simply wrapped together into a single line. If you want to have **soft returns** that break a single line, add **two spaces at the end of the line** <small>(shift-enter)</small> or use a backslash `\`.
 
 ---
 
-# # روابط
-يمكنك الربط بسهولة باستخدام بناء «[نص] (رابط)»:
+This line has a paragraph break at the end (empty line after).
 
-[web monster in internet] (http://MarkdownMonster.west-wind.com/)
+Theses two lines should display as a single
+line because there's no double space at the end.
 
-إذا كنت بحاجة إلى علامات صور إضافية مثل الأهداف أو سمات العنوان، فيمكنك أيضًا تضمين HTML مباشرة باستخدام ترميز HTML الخام:
+The following line has a soft break at the end (two spaces or a `\` at end)  
+This line should be following on the very next line.  
+
+You can also use `shift-enter` to inject the two spaces plus linefeed at the end of a line.  
+To show all white space and returns in a document you can use **View -> Toggle Invisible Characters**.
+
+---
+
+### Links
+You can easily link using `[text](link)` syntax:
+
+[Markdown Monster Web Site](http://MarkdownMonster.west-wind.com/)
+
+If you need additional image tags like targets or title attributes you can also embed HTML directly using raw HTML markup:
 
 ```html
 Go to the 
@@ -76,8 +82,9 @@ Go to the
 </a>
 
 ---
-# # صور
-الصور مشابهة للروابط:
+
+### Images
+Images are similar to links:
 
 ```markdown
 ![Markdown Monster](https://markdownmonster.west-wind.com/Images/MarkdownMonster_Icon_128.png)
@@ -87,354 +94,356 @@ which renders:
 
 ![Markdown Monster](https://markdownmonster.west-wind.com/Images/MarkdownMonster_Icon_128.png)
 
-يمكنك تضمين الصور من Clipboard عن طريق اللصق (* * ctrl-v * *)، باستخدام @ icon-image Image Dialog، أو عن طريق سحب وإسقاط الصور في المستند من Folder Browser أو Windows Explorer أو a
+You can embed images from the Clipboard by pasting (**ctrl-v**), by using the @icon-image Image Dialog, or by dragging and dropping images into the document from the Folder Browser, Windows Explorer or a
 
-# # اقتباسات الحظر
-الاقتباسات المحظورة هي وسائل شرح رائعة لإضافة ملاحظات أو تحذيرات إلى الوثائق.
+### Block Quotes
+Block quotes are callouts that are great for adding notes or warnings into documentation.
 
-اقتباسات الكتلة البسيطة تستخدم ببساطة «>» لبدء كتلة الاقتباس:
-
+Simple block quotes simply use a `>` to start a quote block:
 
 ```markdown
 > **Note:** Block quotes can be used to highlight important ideas.
 ```
 
 This renders to:
-> * * ملاحظة: * * يمكن استخدام اقتباسات الحظر لتسليط الضوء على الأفكار المهمة.
 
-يمكنك جعل كتل الاقتباس تبدو أجمل مع الرؤوس والأيقونات (باستخدام FontAwesome هنا):
+> **Note:** Block quotes can be used to highlight important ideas.
+
+You can make quote blocks look nicer with headers and icons (using FontAwesome here):
 
 ```markdown
-> # # @ icon-info-circle الرؤوس تكسر من تلقاء نفسها
-> لاحظ أن الرؤوس لا تحتاج إلى أحرف استمرار الخط 
-> لأنها عناصر كتلة وكسر تلقائيا. سطور نصية فقط
-> تتطلب المساحات المزدوجة لفواصل الخط الواحد.
+> ### @ icon-info-circle Headers break on their own
+> Note that headers don't need line continuation characters 
+> as they are block elements and automatically break. Only text lines
+> require the double spaces for single line breaks.
 ```
-لاحظ أن الخطوط تغلف تلقائيًا في كتلة الاقتباس، إذا لم يتم توفير خط جديد مع «>». يظهر مع فترات الراحة هنا لتسهيل القراءة. يستخدم ما يلي سطرًا واحدًا للكتلة الثانية والذي يعرض بشكل متطابق:
+Note that lines automatically wrap in the quote block, if no newline with `>' is provided. Shown with the breaks here to make it easier to read. The following uses a single line for the second block which renders identically:
 
-> # # @ icon-info-circle الرؤوس تكسر من تلقاء نفسها
-> لاحظ أن الرؤوس لا تحتاج إلى أحرف استمرار الخط لأنها عناصر كتلة وتكسر تلقائيًا. تتطلب الخطوط النصية فقط المساحات المزدوجة لفواصل السطر الواحد.
+> ### @icon-info-circle Headers break on their own
+> Note that headers don't need line continuation characters as they are block elements and automatically break. Only text lines require the double spaces for single line breaks.
 
-# # أيقونات Fontawesome
-يتضمن Markdown Monster بنية مخصصة لأيقونات FontAwesome في قوالبها. يمكنك تضمين «@ icon -» متبوعًا باسم أيقونة رائع للخط لتضمين تلك الأيقونة تلقائيًا بدون تركيبة HTML الكاملة.
+
+### Fontawesome Icons
+Markdown Monster includes custom syntax for FontAwesome icons in its templates. You can embed a `@ icon-` followed by a font-awesome icon name to automatically embed that icon without full HTML syntax.
 
 ```markdown
 @ icon-gear Configuration
 ```
 
-التي تنص على ما يلي:
+which renders:
 
 ---
 
-@ icon-gear تكوين
+@icon-gear Configuration
 
 ---
 
-لاحظ أن هذا يجعل html التالي:
+Note that this renders the following html:
 
-"'html
-< i class = «fa fa-gear» > </i >
+```html
+<i class="fa fa-gear"></i>
 ```
 
-# # # Emojis
-يمكنك أيضًا تضمين Emojis في التخفيض باستخدام حوار Emoji أو الشائع
+### Emojis
+You can also embed Emojis into your markdown using the Emoji dialog or common 
 
-"
-:smile::rage::sweat::point_down:
+```markdown
+:smile: :rage: :sweat: :point_down:
 
-:-) :-( :-/
+:-) :-( :-/ 
 ````
 
-وهذا يجعل:
+This renders:
 
 ---
 
-:smile::rage::sweat::point_down:
+:smile: :rage: :sweat: :point_down:
 
-:-) :-( :-/
+:-) :-( :-/ 
 
 ---
 
-# # HTML ترميز
-يمكنك أيضًا تضمين ترميز HTML عادي في الصفحة إذا أردت. على سبيل المثال، إذا كنت تريد التحكم الكامل في الرموز الرائعة، فيمكنك استخدام هذا:
+### HTML Markup
+You can also embed plain HTML markup into the page if you like. For example, if you want full control over fontawesome icons you can use this:
 
-يمكن تضمين هذا النص * * * في Markdown:
+This text can be **embedded** into Markdown:  
 
-"
-< i class = «fa fa-refresh fa-spin fa-2x» > </i > & nbsp; * * تحديث الصفحة * *
+```markdown
+<i class="fa fa-refresh fa-spin fa-2x"></i> &nbsp;**Refresh Page**
 ```
 
-< i class = «fa fa-refresh fa-spin fa-2x» > </i > & nbsp; * * تحديث الصفحة * *
+<i class="fa fa-refresh fa-spin fa-2x"></i> &nbsp;**Refresh Page**
 
-لاحظ أنه يجب فصل كتل ترميز HTML الخام عن النص بسطور فارغة فوق وأسفل كتل HTML.
+Note that blocks of raw HTML markup should be separated from text by empty lines above and below the HTML blocks.
 
 
-# # كتل التعليق - منع التخفيض من التقديم
-يحتوي Markdown على دعم لتعليقات HTML ويمكنك استخدام «<! -» للبداية و «- >» لنهاية كتلة التخفيض التي لا تريد تقديمها.
+### Comment Blocks - Keep Markdown from Rendering
+Markdown has support for HTML comments and you can use `<!--` for the beginning and `-->` for the end of a block of markdown that you don't want to render.
 
-"
-# # تعليق
-هذا النص والرأس يجعلان بخير.
+```markdown
+### Commenting
+This text and header renders fine.
 
-<!--
-تم التعليق على هذه الفقرة و * * لا تقدم * *.
+<!-- 
+This paragraph is commented out and **does not render**.
 -->
 
-هذا القدمين يتجول بشكل جيد.
+This footer is comming across just fine.
 ```
 
-وهذا يجعل:
+This renders:
 
----
-# # تعليق
-هذا النص والرأس يجعلان بخير.
+--- 
+### Commenting
+This text and header renders fine.
 
-<!--
-تم التعليق على هذه الفقرة و * * لا تقدم * *.
+<!-- 
+This paragraph is commented out and **does not render**.
 -->
 
-هذه القدم تأتي على ما يرام.
+This footer is coming across just fine.
 
 ---
 
 
-# # قوائم غير مرتبة
+### Unordered Lists
 
-"
-* البند 1
-* البند 2
-* البند 3
+```markdown
+* Item 1
+* Item 2
+* Item 3  
 ```
 
-وهذا يجعل:
+This renders:
 
 ---
 
-* البند 1
-* البند 2
-* البند 3
+* Item 1
+* Item 2
+* Item 3  
 
 ---
 
 
-هذا النص جزء من البند الثالث. استخدم مردودًا ناعمًا («shift-enter» أو فضاءان أو «\») في نهاية عنصر القائمة لكسر الخط والاستمرار عند مسافة الرصاصة.
+This text is part of the third item. Use a soft return (`shift-enter` or two spaces or `\`) at the end of the the list item to break the line and continue at the bullet indentation.
 
-كسر خط مزدوج، يخرج من القائمة.
+A double line break, breaks out of the list.
 
-# # قوائم مرتبة
-القوائم المطلوبة تستخدم رقم مثل «1». أو «2». لعناصر الرصاصة.
+### Ordered Lists
+Ordered lists use number like `1.` or `2.` for the bullet items. 
 
-"
-1- * * البند 1 * *
-العنصر 1 هو حقا شيء
-2- * * البند 2 * *
-العنصر الثاني هو حقا شيء آخر
+```markdown
+1. **Item 1**  
+Item 1 is really something
+2. **Item 2**  
+Item two is really something else
 ```
 
-إلى ما يلي:
+renders to:
 
-1- * * البند 1 * *
-العنصر 1 هو حقا شيء
-2- * * البند 2 * *
-العنصر الثاني هو حقا شيء آخر
+1. **Item 1**  
+Item 1 is really something
+2. **Item 2**  
+Item two is really something else
 
 
-إذا كنت تريد كسر الخطوط (مثل ما بعد الرؤوس الجريئة)، فأنت تستخدم cna * * عوائد ناعمة * *.
+If you want lines to break (like after the bold headers) you cna use **soft returns**.
 
-> * * ملاحظة * *: القوائم المرقمة * * ترتب نفسها بناءً على الطلب * * بدلاً من الرقم الذي تستخدمه صراحة. إذا كنت تعيد ترتيب القوائم بشكل متكرر، فمن المفيد ترقيم جميع العناصر «1».
+> **Note**: Numbered lists **order themselves based on order** rather than the number you explicitly use. If you frequently reorder lists it's useful to number all items `1.`.
 
-يمكنك أيضًا وضع قوائم العش ومزج القوائم المطلوبة وغير المرتبة:
+You can also nest lists and mix ordered and unordered lists:
 
-"
-1. أولاً، احصل على هذه المكونات:
+```markdown
+1. First, get these ingredients:
 
-* الجزر
-* الكرفس
-* العدس
+      * carrots
+      * celery
+      * lentils
 
-2. اغلي بعض الماء.
+2. Boil some water.
 
-3. ألقِ كل شيء في القدر واتبعه
-هذه الخوارزمية:
+3. Dump everything in the pot and follow  
+this algorithm:
 ```
 
-وهذا يجعل:
+This renders:
 
 ---
 
-1. أولاً، احصل على هذه المكونات:
+1. First, get these ingredients:
 
-* الجزر
-* الكرفس
-* العدس
+      * carrots
+      * celery
+      * lentils
 
-2. اغلي بعض الماء.
+ 2. Boil some water.
 
-3. ألقِ كل شيء في القدر واتبعه
-هذه الخوارزمية:
+ 3. Dump everything in the pot and follow  
+    this algorithm:
 
 ---
 
-# # رمز Inline
-إذا كنت ترغب في تضمين رمز في منتصف فقرة من النص لتسليط الضوء على بناء تشفير أو اسم فئة/عضو، يمكنك استخدام بناء الرمز الداخلي:
+### Inline Code
+If you want to embed code in the middle of a paragraph of text to highlight a coding syntax or class/member name you can use inline code syntax:
 
-"
-يمكن تقنين الرمز الداخلي أو مراجع الأعضاء مثل «SomeMethod ()»...
+```markdown
+Inline code or member references  like `SomeMethod()` can be codified...
 ```
 ---
 
-يمكن تقنين الرمز الداخلي أو مراجع الأعضاء مثل «SomeMethod ()»... يمكنك استخدام القائمة «{}» أو * * Ctrl-\* * لتضمين الرمز الداخلي.
+Inline code or member references  like `SomeMethod()` can be codified... You can use the `'{}'` menu or **Ctrl-\`** to embed inline code.
 
 ---
 
-# # كتل الكود البادئة
-يدعم Markdown بناء كتل الكود بطريقتين:
+### Indented Code Blocks 
+Markdown supports code blocks syntax in a couple of ways:
 
-باستخدام كتلة نصية بادئة للرمز:
+Using an indented text block for code:
 
 
-«» التخفيض
-بعض الرسائل النصية...
+````markdown
+Some rendered text...
 
-/ هذا رمز عن طريق أربعة مساحات رائدة
-//أو علامة تبويب رائدة
-int x = 0;
-النص الوتري = لاغ ؛
-ل (int i ؛ i < 10; i++ +;) {
-النص + = النص + «السطر» + ط ؛
-}
+    // This is code by way of four leading spaces
+    // or a leading tab
+    int x = 0;
+    string text = null;
+    for(int i; i < 10; i++;) {
+        text += text + "Line " + i;
+    }
 
-المزيد من الرسائل النصية هنا
+More text here
 ````
 
-ما يلي:
+renders:
 
 ---
 
-بعض الرسائل النصية...
+Some rendered text...
 
-/ هذا رمز عن طريق أربعة مساحات رائدة
-//أو علامة تبويب رائدة
-int x = 0;
-النص الوتري = لاغ ؛
-ل (int i ؛ i < 10; i++ +;) {
-النص + = النص + «السطر» + ط ؛
-}
+    // This is code by way of four leading spaces
+    // or a leading tab
+    int x = 0;
+    string text = null;
+    for(int i; i < 10; i++;) {
+        text += text + "Line " + i;
+    }
 
-المزيد من الرسائل النصية هنا
+More text here
 
 ---
 
-# # كتل الكود المسيجة مع تسليط الضوء على الجملة
-يمكنك أيضًا استخدام القراد الخلفي الثلاثي بالإضافة إلى لغة ترميز اختيارية لدعم تسليط الضوء على الجملة.
+### Fenced Code Blocks with Syntax Highlighting
+You can also use triple back ticks plus an optional coding language to support for syntax highlighting.
 
-ما يلي هو C # رمز.
+The following is C# code.
 
-«» التخفيض
-"'carp
-//سيتم تسليط الضوء على هذا الرمز
-ل (var i = 0 ؛ i++; i < 10)
+````markdown
+```csharp
+// this code will be syntax highlighted
+for(var i=0; i++; i < 10)
 {
-Console.WriteLine (i);
+    Console.WriteLine(i);
 }
-```
+```  
 ````
 
-التي تجعل بناء الشفرة الملونة:
-"'carp
-//سيتم تسليط الضوء على هذا الرمز
-ل (var i = 0 ؛ i++; i < 10)
+which renders syntax colored code:
+
+```csharp
+// this code will be syntax highlighted
+for(var i=0; i++; i < 10)
 {
-Console.WriteLine (i);
+    Console.WriteLine(i);
 }
-```
+```    
 
-يتم دعم العديد من اللغات: html و xml و javascript و typescript و css و csharp و fsharp foxpro و vbnet و sql و python و ruby و php و powershell و dos و markdown و yaml وغيرها الكثير. استخدم قائمة إسقاط الرمز للحصول على قائمة باللغات المتاحة.
+Many languages are supported: html, xml, javascript, typescript, css, csharp, fsharp foxpro, vbnet, sql, python, ruby, php, powershell, dos, markdown, yaml and many more. Use the Code drop down list to get a list of available languages.
 
-يمكنك أيضًا استبعاد اللغة لمحاولة الكشف التلقائي أو استخدام «نص» لنص عادي:
+You can also leave out the language to attempt auto-detection or use `text` for plain text:
 
-«» التخفيض
-نص "
-robocopy c :\temp\test d :\temp\test
+````markdown
+```text
+robocopy c:\temp\test d:\temp\test
 ```
 ````
 
-تجعل النص واضحًا ولكنه منسّق:
+renders plain, but formatted text:
 
-نص "
-robocopy c :\temp\test d :\temp\test
+```text
+robocopy c:\temp\test d:\temp\test
 ```
 
-> * * ملاحظة * *: تفضل استخدام «نص» للبنية غير المميزة على عدم وجود بناء جمالي حيث لا تحاول أي تركيبة اكتشاف البناء تلقائيًا والذي غالبًا ما يكون غير صحيح. كن دائمًا محددًا مع تحديد الجملة.
+> **Note**: Prefer using `text` for non-highlighted syntax over no syntax as no syntax tries to auto-discover the syntax which often is not correct. Always be specific with syntax specified.
 
-# # # حواشي
-يمكن تضمين الحواشي مثل هذا:
+### Footnotes
+Footnotes can be embedded like this:
 
-وفيما يلي نص يتضمن حاشية [^ 1] في منتصف نصها. وهنا حاشية أخرى [^ 2]. الحواشي الفعلية تظهر في أسفل الصفحة.
+Here is some text that includes a Footnote [^1] in the middle of its text. And here's another footnote [^2]. The actual footnotes render on the very bottom of the page.
 
-[^ 1]: المصدر: [موقع Markdown Monster على الإنترنت] (http://markdownmonster.west-wind.com)
-[^ 2]: المصدر: [موقع Markdown Monster على الإنترنت] (http://markdownmonster.west-wind.com)
+[^1]: Source: [Markdown Monster Web Site](http://markdownmonster.west-wind.com)
+[^2]: Source: [Markdown Monster Web Site](http://markdownmonster.west-wind.com)
 
-# # طاولات الأنابيب
-يمكن استخدام [جداول الأنابيب] (https://github.com/lunet-io/markdig/blob/master/src/Markdig.Tests/Specs/PipeTableSpecs.md) لإنشاء جداول سطر واحد بسيطة:
+### Pipe Tables
+[Pipe Tables](https://github.com/lunet-io/markdig/blob/master/src/Markdig.Tests/Specs/PipeTableSpecs.md) can be used to create simple single line tables:
 
 
-"
-|size | مادة | لون |
+```markdown
+|size | material     | color       |
 |---- | ------------ | ------------|
-|9 | الجلد | البني * * الثعلب * * |
-|10 | قماش القنب | طبيعي |
-|11 | الزجاج | شفافة |
+|9    | leather      | brown **fox**  |
+|10   | hemp canvas  | natural |
+|11   | glass        | transparent |
 ```
 
 ---
 
-|size | مادة | لون |
+|size | material     | color       |
 |---- | ------------ | ------------|
-|9 | الجلد | البني * * الثعلب * * |
-|10 | قماش القنب | طبيعي |
-|11 | الزجاج | شفافة |
+|9    | leather      | brown **fox**  |
+|10   | hemp canvas  | natural |
+|11   | glass        | transparent |
 
-> * * ملاحظة: * * لا يتعين على خطوط الخلايا أن تصطف لتقديمها بشكل صحيح. تحدد الأعمدة القصوى في أي صف أعمدة الجدول للجدول بأكمله. لا تحتاج طاولات الأنابيب أيضًا إلى أنابيب رائدة ومتخلفة لتقديمها كجداول، ولكن تأكد من التحقق من التوافق مع موقع العرض النهائي الخاص بك.
+> **Note:** Cell lines don't have to line up to render properly. Max columns in any row determines table columns for the entire table. Pipe tables also don't need leading and trailing pipes to render as tables, but make sure you check compatibility with your final rendering site.
 
-# # طاولات الشبكة
-[جداول الشبكة] (https://github.com/lunet-io/markdig/blob/master/src/Markdig.Tests/Specs/GridTableSpecs.md) أكثر مرونة قليلاً من جداول الأنابيب من حيث أنها يمكن أن تحتوي على خطوط متعددة من النص لكل خلية والتعامل مع نص Markdown متعدد الخطوط.
+### Grid Tables
+[Grid Tables](https://github.com/lunet-io/markdig/blob/master/src/Markdig.Tests/Specs/GridTableSpecs.md) are a bit more flexible than Pipe Tables in that they can have multiple lines of text per cell and handle multi-line embedded Markdown text.
 
-"
+```markdown
 +---------+---------+
-| رأسية | رأسية |
-    
+| Header  | Header  |
+| Column1 | Column2 |
 +=========+=========+
-| 1. أب | > هذا اقتباس
-| 2. cde | > للعمود الثاني
-| 3. و |
+| 1. ab   | > This is a quote
+| 2. cde  | > For the second column 
+| 3. f    |
 +---------+---------+
-| الصف الثاني الممتد
-| على عمودين
+| Second row spanning
+| on two columns
 +---------+---------+
-| العودة إلى | |
-| إلى | |
-| | واحد |
-| العمود | |
+| Back    |         |
+| to      |         |
+| one     |         |
+| column  |         | 
 ```
 
----
+--- 
 +---------+---------+
-| رأسية | رأسية |
-    
+| Header  | Header  |
+| Column1 | Column2 |
 +=========+=========+
-| 1. أب | > هذا اقتباس
-| 2. cde | > للعمود الثاني
-| 3. و |
+| 1. ab   | > This is a quote
+| 2. cde  | > For the second column 
+| 3. f    |
 +---------+---------+
-| الصف الثاني الممتد
-| على عمودين
+| Second row spanning
+| on two columns
 +---------+---------+
-| العودة إلى | |
-| إلى | |
-| | واحد |
-| العمود | | 
+| Back    |         |
+| to      |         |
+| one     |         |
+| column  |         | 
 
 
-> # # @ icon-info-circle استخدم @ icon-table Editor
-> لتسهيل إدخال بيانات الجدول والجداول المقدمة بشكل جميل، يمكنك استخدام محرر الجدول الذي يوفر إدخال بيانات الجدول القائم على الشبكة. يمكنك استخدام محرر الجدول مع * * Pipe * * و * * Grid * * و * * HTML * * جداول.
+> ### @icon-info-circle Use the @icon-table Table Editor 
+> For easier table data entry and pretty rendered tables you can use the table editor which provides grid based table data entry. You can use the table editor with **Pipe**, **Grid** and **HTML** tables.
